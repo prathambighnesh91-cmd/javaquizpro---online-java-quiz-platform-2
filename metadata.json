@@ -1,0 +1,6 @@
+{
+  "name": "JavaQuizPro - Online Java Quiz Platform",
+  "description": "A comprehensive Java-based online quiz and assessment platform with role-based dashboards for Admins, Quiz Creators, and Participants, featuring timed quizzes, instant analytics, and Java mastery tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
