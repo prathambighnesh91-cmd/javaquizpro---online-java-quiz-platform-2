@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 import React, { useState } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ToastProvider } from './components/common/Toast';
@@ -14,6 +15,14 @@ import { SpringBootCodeViewer } from './components/docs/SpringBootCodeViewer';
 import { BrandLogo } from './components/common/BrandLogo';
 import { Quiz } from './types';
 import { api } from './services/api';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elementName: string]: any;
+    }
+  }
+}
 
 function MainAppContent() {
   const { user } = useAuth();
