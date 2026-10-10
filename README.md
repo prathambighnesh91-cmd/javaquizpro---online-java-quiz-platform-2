@@ -93,7 +93,7 @@ The application comes pre-seeded with sample data across all roles for immediate
 1. Ensure Node.js (v18+) is installed.
 2. Install dependencies:
    ```bash
-   npm install
+   npm install react-is --legacy-peer-deps
    ```
 3. Start the Vite development server:
    ```bash
